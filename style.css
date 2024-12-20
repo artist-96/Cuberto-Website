@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+*::selection {
+    color: #ffff;
+    background-color: #000000;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: black;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+}
+.nav{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    height: 100px;
+}
+.nav .menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    color: white;
+}
+.nav i{
+    margin-top: 3px;
+}
+.home .page1{
+    width: 100%;
+    /* background-color: red; */
+    padding: 15vw 15vw;
+}
+.home h1{
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: white;
+}
+.headings{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+.page1 .headings h1{
+    color: transparent;
+    -webkit-text-stroke: white 1px;
+    font-size: 12vh;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -5px;
+}
+.page1 .headings h1:hover{
+    color: white;
+}
+.page1foot{
+    padding: 1vw 15vw;
+}
+.page1foot p{
+    font-size: 1.5vw;
+    font-weight: 500;
+    letter-spacing: -0.08vw;
+    color: white;
+}
+.page1foot p::selection{
+    color: white;
+    background-color: black;
+}
+.featured{
+    padding: 10vw 15vw;
+}
+.featured h1{
+    font-size: 3vw;
+    font-weight: 600;
+    color: white;
+}
+.featured .projects{
+    color: transparent;
+    -webkit-text-stroke: white 1px;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    /* padding: 5vw 15vw; */
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+}
+.left .elements{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    /* background-color: red; */
+}
+.elements h1{
+    font-size: 2vw;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 2vw 0;
+    color: white;
+}
+.elements h5{
+    font-weight:300;
+    color: white;
+}
+.right{
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid violet; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right .images{
+    /* background-color: red; */
+    width: 90%;
+    height: 80%;
+}
+.right .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btndiv button{
+    padding: 1vw 1vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+.dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+.dev h1 {
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+    color: white;
+}
+.dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+    color: white;
+}
+#slides {
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.slide {
+    width: 30%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 20px;
+    /* background-color: yellow; */
+    border: 1px solid white;
+}
+
+.slide .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .tag {
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    color: white;
+}
